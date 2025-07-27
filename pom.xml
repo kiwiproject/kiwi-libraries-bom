@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.kiwiproject</groupId>
+        <artifactId>kiwi-parent</artifactId>
+        <version>3.0.29</version>
+    </parent>
+
+    <artifactId>kiwi-libraries-bom</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>
+        Bill of Materials for all kiwiproject libraries
+    </description>
+    <url>https://github.com/kiwiproject/kiwi-libraries-bom</url>
+    <inceptionYear>2025</inceptionYear>
+
+    <scm>
+        <connection>scm:git:https://github.com/kiwiproject/kiwi-libraries-bom.git</connection>
+        <developerConnection>scm:git:git@github.com:kiwiproject/kiwi-libraries-bom.git</developerConnection>
+        <url>https://github.com/kiwiproject/kiwi-libraries-bom</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <!-- TODO BOM-managed versions and Sonar properties -->
+    </properties>
+
+    <!-- TODO Add dependency management section -->
+
+</project>
