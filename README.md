@@ -1,6 +1,9 @@
 # Kiwi Libraries Bill of Materials (BOM)
 
-_TODO Add badges_
+[![build](https://github.com/kiwiproject/kiwi-libraries-bom/actions/workflows/build.yml/badge.svg)](https://github.com/kiwiproject/kiwi-libraries-bom/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kiwiproject_kiwi-libraries-bom&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=kiwiproject_kiwi-libraries-bom)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Maven Central](https://img.shields.io/maven-central/v/org.kiwiproject/kiwi-libraries-bom)](https://central.sonatype.com/artifact/org.kiwiproject/kiwi-libraries-bom/ )
 
 This is a Maven Bill of Materials (BOM) for use by projects that depend on one or more libraries
 from the [kiwiproject](https://github.com/kiwiproject) organization.
