@@ -15,7 +15,8 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>
-        Bill of Materials for all kiwiproject libraries
+        Bill of Materials for all kiwiproject libraries.
+        Use this to ensure you are using the latest versions of kiwiproject libraries.
     </description>
     <url>https://github.com/kiwiproject/kiwi-libraries-bom</url>
     <inceptionYear>2025</inceptionYear>
