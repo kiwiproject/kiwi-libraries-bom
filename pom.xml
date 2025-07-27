@@ -28,9 +28,156 @@
     </scm>
 
     <properties>
-        <!-- TODO BOM-managed versions and Sonar properties -->
+        <!-- Core libraries -->
+        <kiwi.version>4.12.0</kiwi.version>
+        <kiwi-beta.version>2.5.0</kiwi-beta.version>
+        <kiwi-test.version>3.11.1</kiwi-test.version>
+        <retrying-again.version>2.1.8</retrying-again.version>
+
+        <!-- Dropwizard utilities and extensions -->
+        <dropwizard-application-errors.version>3.0.5</dropwizard-application-errors.version>
+        <dropwizard-client-poller.version>2.0.11</dropwizard-client-poller.version>
+        <dropwizard-config-providers.version>2.3.8</dropwizard-config-providers.version>
+        <dropwizard-consul.version>1.2.5</dropwizard-consul.version>
+        <dropwizard-curator.version>2.1.10</dropwizard-curator.version>
+        <dropwizard-elk-appender.version>2.0.11</dropwizard-elk-appender.version>
+        <dropwizard-jakarta-xml-ws.version>1.1.7</dropwizard-jakarta-xml-ws.version>
+        <dropwizard-leader-latch.version>2.3.5</dropwizard-leader-latch.version>
+        <dropwizard-mongo-migrations.version>2.0.11</dropwizard-mongo-migrations.version>
+        <dropwizard-service-utilities.version>4.1.0</dropwizard-service-utilities.version>
+
+        <!-- Service discovery -->
+        <consul-client.version>1.6.0</consul-client.version>
+        <registry-aware-jersey-client.version>2.3.1</registry-aware-jersey-client.version>
+        <service-discovery-client.version>2.1.8</service-discovery-client.version>
+
+        <!-- Utilities & others -->
+        <dynamic-properties-provider.version>2.0.11</dynamic-properties-provider.version>
+        <metrics-healthchecks-severity.version>2.1.2</metrics-healthchecks-severity.version>
+
+        <!-- TODO Add Sonar properties once add to Sonar -->
     </properties>
 
-    <!-- TODO Add dependency management section -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Core libraries -->
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>kiwi</artifactId>
+                <version>${kiwi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>kiwi-beta</artifactId>
+                <version>${kiwi-beta.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>kiwi-test</artifactId>
+                <version>${kiwi-test.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>retrying-again</artifactId>
+                <version>${retrying-again.version}</version>
+            </dependency>
+
+            <!-- Dropwizard utilities and extensions -->
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-application-errors</artifactId>
+                <version>${dropwizard-application-errors.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-client-poller</artifactId>
+                <version>${dropwizard-client-poller.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-config-providers</artifactId>
+                <version>${dropwizard-config-providers.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-consul</artifactId>
+                <version>${dropwizard-consul.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-curator</artifactId>
+                <version>${dropwizard-curator.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-elk-appender</artifactId>
+                <version>${dropwizard-elk-appender.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-jakarta-xml-ws</artifactId>
+                <version>${dropwizard-jakarta-xml-ws.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-leader-latch</artifactId>
+                <version>${dropwizard-leader-latch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-mongo-migrations</artifactId>
+                <version>${dropwizard-mongo-migrations.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-service-utilities</artifactId>
+                <version>${dropwizard-service-utilities.version}</version>
+            </dependency>
+
+            <!-- Service discovery -->
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>consul-client</artifactId>
+                <version>${consul-client.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>registry-aware-jersey-client</artifactId>
+                <version>${registry-aware-jersey-client.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>service-discovery-client</artifactId>
+                <version>${service-discovery-client.version}</version>
+            </dependency>
+
+            <!-- Other utilities -->
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dynamic-properties-provider</artifactId>
+                <version>${dynamic-properties-provider.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>metrics-healthchecks-severity</artifactId>
+                <version>${metrics-healthchecks-severity.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
