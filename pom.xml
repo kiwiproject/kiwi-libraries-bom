@@ -55,7 +55,10 @@
         <dynamic-properties-provider.version>2.0.11</dynamic-properties-provider.version>
         <metrics-healthchecks-severity.version>2.1.2</metrics-healthchecks-severity.version>
 
-        <!-- TODO Add Sonar properties once add to Sonar -->
+        <!-- Sonar properties -->
+        <sonar.projectKey>kiwiproject_kiwi-libraries-bom</sonar.projectKey>
+        <sonar.organization>kiwiproject</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencyManagement>
