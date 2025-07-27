@@ -17,7 +17,7 @@ To use this BOM in your Maven project, first import it in the `<dependencyManage
         <dependency>
             <groupId>org.kiwiproject</groupId>
             <artifactId>kiwi-libraries-bom</artifactId>
-            <version>[current-version]</version> <!-- Replace with the latest version -->
+            <version>[current-version]</version> <!-- Replace 'current-version' with the latest version -->
             <type>pom</type>
             <scope>import</scope>
         </dependency>
