@@ -35,7 +35,7 @@
         <retrying-again.version>2.1.9</retrying-again.version>
 
         <!-- Dropwizard utilities and extensions -->
-        <dropwizard-application-errors.version>3.0.5</dropwizard-application-errors.version>
+        <dropwizard-application-errors.version>3.0.6</dropwizard-application-errors.version>
         <dropwizard-client-poller.version>2.0.12</dropwizard-client-poller.version>
         <dropwizard-config-providers.version>2.3.9</dropwizard-config-providers.version>
         <dropwizard-consul.version>1.2.5</dropwizard-consul.version>
