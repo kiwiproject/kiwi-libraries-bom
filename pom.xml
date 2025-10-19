@@ -47,7 +47,7 @@
         <dropwizard-service-utilities.version>4.2.1</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
-        <consul-client.version>1.7.0</consul-client.version>
+        <consul-client.version>1.8.0</consul-client.version>
         <registry-aware-jersey-client.version>2.4.0</registry-aware-jersey-client.version>
         <service-discovery-client.version>2.1.10</service-discovery-client.version>
 
