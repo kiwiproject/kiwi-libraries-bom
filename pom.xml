@@ -42,7 +42,7 @@
         <dropwizard-curator.version>2.1.12</dropwizard-curator.version>
         <dropwizard-elk-appender.version>2.0.13</dropwizard-elk-appender.version>
         <dropwizard-jakarta-xml-ws.version>1.1.9</dropwizard-jakarta-xml-ws.version>
-        <dropwizard-leader-latch.version>2.3.6</dropwizard-leader-latch.version>
+        <dropwizard-leader-latch.version>2.3.7</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>2.0.13</dropwizard-mongo-migrations.version>
         <dropwizard-service-utilities.version>4.2.1</dropwizard-service-utilities.version>
 
