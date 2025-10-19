@@ -52,7 +52,7 @@
         <service-discovery-client.version>2.1.9</service-discovery-client.version>
 
         <!-- Utilities & others -->
-        <dynamic-properties-provider.version>2.0.12</dynamic-properties-provider.version>
+        <dynamic-properties-provider.version>2.0.13</dynamic-properties-provider.version>
         <metrics-healthchecks-severity.version>2.1.3</metrics-healthchecks-severity.version>
 
         <!-- Sonar properties -->
