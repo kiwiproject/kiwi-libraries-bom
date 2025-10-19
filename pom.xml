@@ -41,7 +41,7 @@
         <dropwizard-consul.version>1.2.6</dropwizard-consul.version>
         <dropwizard-curator.version>2.1.11</dropwizard-curator.version>
         <dropwizard-elk-appender.version>2.0.13</dropwizard-elk-appender.version>
-        <dropwizard-jakarta-xml-ws.version>1.1.8</dropwizard-jakarta-xml-ws.version>
+        <dropwizard-jakarta-xml-ws.version>1.1.9</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>2.3.6</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>2.0.13</dropwizard-mongo-migrations.version>
         <dropwizard-service-utilities.version>4.2.1</dropwizard-service-utilities.version>
@@ -53,7 +53,7 @@
 
         <!-- Utilities & others -->
         <dynamic-properties-provider.version>2.0.13</dynamic-properties-provider.version>
-        <metrics-healthchecks-severity.version>2.1.3</metrics-healthchecks-severity.version>
+        <metrics-healthchecks-severity.version>2.1.4</metrics-healthchecks-severity.version>
 
         <!-- Sonar properties -->
         <sonar.projectKey>kiwiproject_kiwi-libraries-bom</sonar.projectKey>
