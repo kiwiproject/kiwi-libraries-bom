@@ -38,7 +38,7 @@
         <dropwizard-application-errors.version>3.0.8</dropwizard-application-errors.version>
         <dropwizard-client-poller.version>2.0.14</dropwizard-client-poller.version>
         <dropwizard-config-providers.version>2.3.11</dropwizard-config-providers.version>
-        <dropwizard-consul.version>1.3.0</dropwizard-consul.version>
+        <dropwizard-consul.version>1.3.1</dropwizard-consul.version>
         <dropwizard-curator.version>2.1.13</dropwizard-curator.version>
         <dropwizard-elk-appender.version>2.1.0</dropwizard-elk-appender.version>
         <dropwizard-jakarta-xml-ws.version>1.1.10</dropwizard-jakarta-xml-ws.version>
