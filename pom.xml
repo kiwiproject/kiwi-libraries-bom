@@ -29,7 +29,7 @@
 
     <properties>
         <!-- Core libraries -->
-        <kiwi.version>4.14.1</kiwi.version>
+        <kiwi.version>4.15.0</kiwi.version>
         <kiwi-beta.version>2.7.0</kiwi-beta.version>
         <kiwi-test.version>3.12.2</kiwi-test.version>
         <retrying-again.version>2.1.11</retrying-again.version>
@@ -38,7 +38,7 @@
         <dropwizard-application-errors.version>3.0.8</dropwizard-application-errors.version>
         <dropwizard-client-poller.version>2.0.14</dropwizard-client-poller.version>
         <dropwizard-config-providers.version>2.3.11</dropwizard-config-providers.version>
-        <dropwizard-consul.version>1.4.1</dropwizard-consul.version>
+        <dropwizard-consul.version>1.5.0</dropwizard-consul.version>
         <dropwizard-curator.version>2.1.13</dropwizard-curator.version>
         <dropwizard-elk-appender.version>2.1.0</dropwizard-elk-appender.version>
         <dropwizard-jakarta-xml-ws.version>1.1.10</dropwizard-jakarta-xml-ws.version>
