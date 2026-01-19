@@ -53,7 +53,7 @@
 
         <!-- Utilities & others -->
         <dynamic-properties-provider.version>3.0.0</dynamic-properties-provider.version>
-        <metrics-healthchecks-severity.version>2.1.5</metrics-healthchecks-severity.version>
+        <metrics-healthchecks-severity.version>3.0.0</metrics-healthchecks-severity.version>
 
         <!-- Sonar properties -->
         <sonar.projectKey>kiwiproject_kiwi-libraries-bom</sonar.projectKey>
