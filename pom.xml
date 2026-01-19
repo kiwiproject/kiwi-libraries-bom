@@ -29,27 +29,27 @@
 
     <properties>
         <!-- Core libraries -->
-        <kiwi.version>4.15.0</kiwi.version>
-        <kiwi-beta.version>2.7.0</kiwi-beta.version>
-        <kiwi-test.version>3.13.0</kiwi-test.version>
-        <retrying-again.version>2.1.11</retrying-again.version>
+        <kiwi.version>5.0.0</kiwi.version>
+        <kiwi-beta.version>3.0.0</kiwi-beta.version>
+        <kiwi-test.version>4.0.0</kiwi-test.version>
+        <retrying-again.version>2.1.12</retrying-again.version>
 
         <!-- Dropwizard utilities and extensions -->
-        <dropwizard-application-errors.version>3.0.8</dropwizard-application-errors.version>
-        <dropwizard-client-poller.version>2.0.14</dropwizard-client-poller.version>
-        <dropwizard-config-providers.version>2.3.11</dropwizard-config-providers.version>
-        <dropwizard-consul.version>1.5.0</dropwizard-consul.version>
-        <dropwizard-curator.version>2.1.13</dropwizard-curator.version>
-        <dropwizard-elk-appender.version>2.1.0</dropwizard-elk-appender.version>
-        <dropwizard-jakarta-xml-ws.version>1.1.10</dropwizard-jakarta-xml-ws.version>
-        <dropwizard-leader-latch.version>2.3.8</dropwizard-leader-latch.version>
-        <dropwizard-mongo-migrations.version>2.0.14</dropwizard-mongo-migrations.version>
-        <dropwizard-service-utilities.version>4.2.2</dropwizard-service-utilities.version>
+        <dropwizard-application-errors.version>4.0.0</dropwizard-application-errors.version>
+        <dropwizard-client-poller.version>3.0.0</dropwizard-client-poller.version>
+        <dropwizard-config-providers.version>3.0.0</dropwizard-config-providers.version>
+        <dropwizard-consul.version>2.0.0</dropwizard-consul.version>
+        <dropwizard-curator.version>3.0.0</dropwizard-curator.version>
+        <dropwizard-elk-appender.version>3.0.0</dropwizard-elk-appender.version>
+        <dropwizard-jakarta-xml-ws.version>2.0.0</dropwizard-jakarta-xml-ws.version>
+        <dropwizard-leader-latch.version>3.0.0</dropwizard-leader-latch.version>
+        <dropwizard-mongo-migrations.version>3.0.0</dropwizard-mongo-migrations.version>
+        <dropwizard-service-utilities.version>5.0.0</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
-        <consul-client.version>1.9.1</consul-client.version>
-        <registry-aware-jersey-client.version>2.4.2</registry-aware-jersey-client.version>
-        <service-discovery-client.version>2.1.11</service-discovery-client.version>
+        <consul-client.version>1.9.2</consul-client.version>
+        <registry-aware-jersey-client.version>3.0.0</registry-aware-jersey-client.version>
+        <service-discovery-client.version>3.0.0</service-discovery-client.version>
 
         <!-- Utilities & others -->
         <dynamic-properties-provider.version>2.0.14</dynamic-properties-provider.version>
