@@ -29,10 +29,10 @@
 
     <properties>
         <!-- Core libraries -->
-        <kiwi.version>4.15.0</kiwi.version>
-        <kiwi-beta.version>2.7.0</kiwi-beta.version>
-        <kiwi-test.version>3.13.0</kiwi-test.version>
-        <retrying-again.version>2.1.11</retrying-again.version>
+        <kiwi.version>5.0.0</kiwi.version>
+        <kiwi-beta.version>3.0.0</kiwi-beta.version>
+        <kiwi-test.version>4.0.0</kiwi-test.version>
+        <retrying-again.version>2.1.12</retrying-again.version>
 
         <!-- Dropwizard utilities and extensions -->
         <dropwizard-application-errors.version>3.0.8</dropwizard-application-errors.version>
@@ -44,12 +44,12 @@
         <dropwizard-jakarta-xml-ws.version>1.1.10</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>2.3.8</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>2.0.14</dropwizard-mongo-migrations.version>
-        <dropwizard-service-utilities.version>4.2.2</dropwizard-service-utilities.version>
+        <dropwizard-service-utilities.version>5.0.0</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
         <consul-client.version>1.9.1</consul-client.version>
         <registry-aware-jersey-client.version>2.4.2</registry-aware-jersey-client.version>
-        <service-discovery-client.version>2.1.11</service-discovery-client.version>
+        <service-discovery-client.version>3.0.0</service-discovery-client.version>
 
         <!-- Utilities & others -->
         <dynamic-properties-provider.version>2.0.14</dynamic-properties-provider.version>
