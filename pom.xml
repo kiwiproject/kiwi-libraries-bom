@@ -37,7 +37,7 @@
         <!-- Dropwizard utilities and extensions -->
         <dropwizard-application-errors.version>4.0.0</dropwizard-application-errors.version>
         <dropwizard-client-poller.version>3.0.0</dropwizard-client-poller.version>
-        <dropwizard-config-providers.version>2.3.11</dropwizard-config-providers.version>
+        <dropwizard-config-providers.version>3.0.0</dropwizard-config-providers.version>
         <dropwizard-consul.version>1.5.0</dropwizard-consul.version>
         <dropwizard-curator.version>2.1.13</dropwizard-curator.version>
         <dropwizard-elk-appender.version>2.1.0</dropwizard-elk-appender.version>
