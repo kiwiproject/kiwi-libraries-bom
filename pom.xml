@@ -32,7 +32,7 @@
         <kiwi.version>5.0.0</kiwi.version>
         <kiwi-beta.version>3.0.0</kiwi-beta.version>
         <kiwi-test.version>4.0.0</kiwi-test.version>
-        <retrying-again.version>2.1.11</retrying-again.version>
+        <retrying-again.version>2.1.12</retrying-again.version>
 
         <!-- Dropwizard utilities and extensions -->
         <dropwizard-application-errors.version>3.0.8</dropwizard-application-errors.version>
