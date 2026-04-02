@@ -11,6 +11,11 @@ on:
     paths-ignore:
       - '**/*.md'
       - '**/*.txt'
+
+permissions:
+  contents: read
+  pull-requests: read  # allows GITHUB_TOKEN to read PR metadata for Sonar analysis contex
+
 jobs:
   build:
     name: Build
