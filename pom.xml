@@ -30,7 +30,7 @@
     <properties>
         <!-- Core libraries -->
         <kiwi.version>5.1.1</kiwi.version>
-        <kiwi-beta.version>3.0.1</kiwi-beta.version>
+        <kiwi-beta.version>3.0.2</kiwi-beta.version>
         <kiwi-test.version>4.0.1</kiwi-test.version>
         <retrying-again.version>2.1.13</retrying-again.version>
 
