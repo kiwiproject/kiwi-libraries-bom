@@ -43,7 +43,7 @@
         <dropwizard-elk-appender.version>3.0.2</dropwizard-elk-appender.version>
         <dropwizard-jakarta-xml-ws.version>2.0.2</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>3.0.1</dropwizard-leader-latch.version>
-        <dropwizard-mongo-migrations.version>3.0.1</dropwizard-mongo-migrations.version>
+        <dropwizard-mongo-migrations.version>3.0.2</dropwizard-mongo-migrations.version>
         <dropwizard-service-utilities.version>5.0.1</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
