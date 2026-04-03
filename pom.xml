@@ -40,7 +40,7 @@
         <dropwizard-config-providers.version>3.0.1</dropwizard-config-providers.version>
         <dropwizard-consul.version>2.0.2</dropwizard-consul.version>
         <dropwizard-curator.version>3.0.1</dropwizard-curator.version>
-        <dropwizard-elk-appender.version>3.0.1</dropwizard-elk-appender.version>
+        <dropwizard-elk-appender.version>3.0.2</dropwizard-elk-appender.version>
         <dropwizard-jakarta-xml-ws.version>2.0.2</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>3.0.1</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>3.0.1</dropwizard-mongo-migrations.version>
