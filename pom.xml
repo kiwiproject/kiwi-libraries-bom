@@ -44,7 +44,7 @@
         <dropwizard-jakarta-xml-ws.version>2.0.2</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>3.0.2</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>3.0.2</dropwizard-mongo-migrations.version>
-        <dropwizard-service-utilities.version>5.0.2</dropwizard-service-utilities.version>
+        <dropwizard-service-utilities.version>5.1.0</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
         <consul-client.version>1.12.0</consul-client.version>
