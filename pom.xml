@@ -31,7 +31,7 @@
         <!-- Core libraries -->
         <kiwi.version>5.3.1</kiwi.version>
         <kiwi-beta.version>3.1.0</kiwi-beta.version>
-        <kiwi-test.version>4.1.0</kiwi-test.version>
+        <kiwi-test.version>4.2.0</kiwi-test.version>
         <retrying-again.version>2.1.15</retrying-again.version>
 
         <!-- Dropwizard utilities and extensions -->
