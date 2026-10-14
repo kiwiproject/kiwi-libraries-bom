@@ -41,10 +41,12 @@
         <dropwizard-config-providers.version>3.0.3</dropwizard-config-providers.version>
         <dropwizard-consul.version>2.1.1</dropwizard-consul.version>
         <dropwizard-curator.version>3.0.3</dropwizard-curator.version>
+        <dropwizard-dynamodb-leader-latch.version>0.1.0</dropwizard-dynamodb-leader-latch.version>
         <dropwizard-elk-appender.version>3.0.3</dropwizard-elk-appender.version>
         <dropwizard-jakarta-xml-ws.version>2.0.3</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>3.0.3</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>3.0.3</dropwizard-mongo-migrations.version>
+        <dropwizard-postgres-leader-latch.version>0.1.0</dropwizard-postgres-leader-latch.version>
         <dropwizard-service-utilities.version>5.3.0</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
@@ -54,7 +56,9 @@
 
         <!-- Utilities & others -->
         <dynamic-properties-provider.version>3.0.3</dynamic-properties-provider.version>
+        <dynamodb-leader-latch.version>0.1.0</dynamodb-leader-latch.version>
         <metrics-healthchecks-severity.version>3.1.0</metrics-healthchecks-severity.version>
+        <postgres-leader-latch.version>0.1.0</postgres-leader-latch.version>
 
         <!-- Sonar properties -->
         <sonar.projectKey>kiwiproject_kiwi-libraries-bom</sonar.projectKey>
@@ -128,6 +132,12 @@
 
             <dependency>
                 <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-dynamodb-leader-latch</artifactId>
+                <version>${dropwizard-dynamodb-leader-latch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
                 <artifactId>dropwizard-elk-appender</artifactId>
                 <version>${dropwizard-elk-appender.version}</version>
             </dependency>
@@ -148,6 +158,12 @@
                 <groupId>org.kiwiproject</groupId>
                 <artifactId>dropwizard-mongo-migrations</artifactId>
                 <version>${dropwizard-mongo-migrations.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>dropwizard-postgres-leader-latch</artifactId>
+                <version>${dropwizard-postgres-leader-latch.version}</version>
             </dependency>
 
             <dependency>
@@ -184,8 +200,20 @@
 
             <dependency>
                 <groupId>org.kiwiproject</groupId>
+                <artifactId>dynamodb-leader-latch</artifactId>
+                <version>${dynamodb-leader-latch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
                 <artifactId>metrics-healthchecks-severity</artifactId>
                 <version>${metrics-healthchecks-severity.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.kiwiproject</groupId>
+                <artifactId>postgres-leader-latch</artifactId>
+                <version>${postgres-leader-latch.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
