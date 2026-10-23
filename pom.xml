@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.kiwiproject</groupId>
         <artifactId>kiwi-parent</artifactId>
-        <version>3.0.45</version>
+        <version>3.0.46</version>
     </parent>
 
     <artifactId>kiwi-libraries-bom</artifactId>
@@ -29,7 +29,7 @@
 
     <properties>
         <!-- Core libraries -->
-        <kiwi.version>5.4.0</kiwi.version>
+        <kiwi.version>5.4.1</kiwi.version>
         <kiwi-beta.version>3.1.0</kiwi-beta.version>
         <kiwi-test.version>4.3.0</kiwi-test.version>
         <retrying-again.version>2.1.15</retrying-again.version>
@@ -41,12 +41,12 @@
         <dropwizard-config-providers.version>3.0.3</dropwizard-config-providers.version>
         <dropwizard-consul.version>2.1.1</dropwizard-consul.version>
         <dropwizard-curator.version>3.0.3</dropwizard-curator.version>
-        <dropwizard-dynamodb-leader-latch.version>0.1.0</dropwizard-dynamodb-leader-latch.version>
+        <dropwizard-dynamodb-leader-latch.version>0.2.0</dropwizard-dynamodb-leader-latch.version>
         <dropwizard-elk-appender.version>3.0.3</dropwizard-elk-appender.version>
-        <dropwizard-jakarta-xml-ws.version>2.0.3</dropwizard-jakarta-xml-ws.version>
+        <dropwizard-jakarta-xml-ws.version>2.0.4</dropwizard-jakarta-xml-ws.version>
         <dropwizard-leader-latch.version>3.0.3</dropwizard-leader-latch.version>
         <dropwizard-mongo-migrations.version>3.0.3</dropwizard-mongo-migrations.version>
-        <dropwizard-postgres-leader-latch.version>0.1.0</dropwizard-postgres-leader-latch.version>
+        <dropwizard-postgres-leader-latch.version>0.2.0</dropwizard-postgres-leader-latch.version>
         <dropwizard-service-utilities.version>5.3.0</dropwizard-service-utilities.version>
 
         <!-- Service discovery -->
@@ -56,9 +56,9 @@
 
         <!-- Utilities & others -->
         <dynamic-properties-provider.version>3.0.3</dynamic-properties-provider.version>
-        <dynamodb-leader-latch.version>0.1.0</dynamodb-leader-latch.version>
+        <dynamodb-leader-latch.version>0.2.0</dynamodb-leader-latch.version>
         <metrics-healthchecks-severity.version>3.1.0</metrics-healthchecks-severity.version>
-        <postgres-leader-latch.version>0.1.0</postgres-leader-latch.version>
+        <postgres-leader-latch.version>0.2.0</postgres-leader-latch.version>
 
         <!-- Sonar properties -->
         <sonar.projectKey>kiwiproject_kiwi-libraries-bom</sonar.projectKey>
